@@ -20,9 +20,9 @@ function Expenses(props) {
         date={props.items[2].date}
       />
       <ExpenseItem
-        title={props.data[3].title}
-        amount={props.data[3].amount}
-        date={props.data[3].date}
+        title={props.items[3].title}
+        amount={props.items[3].amount}
+        date={props.items[3].date}
       />
     </div>
   );
